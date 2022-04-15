@@ -16,6 +16,8 @@ AWs: RDs (Mysql) and EC2 (ubuntu)
 ![ ](images/etl1.PNG)
 
 
+![ ](images/scr1.PNG)
+ 
 1. Scheduling Python Script using Crontab on Ec2 ( Linux)
 
 
