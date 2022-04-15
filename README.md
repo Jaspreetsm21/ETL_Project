@@ -27,7 +27,7 @@ Inside the script, it follows the steps in the screenshot below:
 
 Scheduling Python Script using Crontab on Ec2 ( Linux)
 
-![ ](images/sql.PNG)
+![ ](images/cron.PNG)
 
 
 ### Mysql (Workbench) and Covid Data
