@@ -15,10 +15,21 @@ AWs: RDs (Mysql) and EC2 (ubuntu)
 
 ![ ](images/etl1.PNG)
 
+### Python Script
+
+Inside the script, it follows the steps in the screenshot below:
+- Request Api and Transform
+- Connect with Mysql and load the data
 
 ![ ](images/scr1.PNG)
  
-1. Scheduling Python Script using Crontab on Ec2 ( Linux)
+### Schedule Jobs
+
+Scheduling Python Script using Crontab on Ec2 ( Linux)
+
+![ ](images/sql.PNG)
 
 
-2. Python Script 
+### Mysql (Workbench) and Covid Data
+
+![ ](images/sql.PNG)
