@@ -2,7 +2,7 @@
 
 Aim: Setup an ETL Job to Extract daily covid data from API for Data Team, who are going to use data to create insight and dashboards. 
 
-Result: Automated job (crontab) has been setup on EC2 (Aws) to run python daily everyday to extract, transform and load data on to Sql Table.
+Result: Automated (crontab) job has been setup on EC2 (Aws) to run a python script daily to extract, transform and load data on to SQL Table.
 
 # Code and Resources Used
 Python Version: 3.7
@@ -28,7 +28,7 @@ Inside the script, it follows the steps in the screenshot below:
  
 ### Schedule Jobs
 
-Scheduling Python Script using Crontab on Ec2 ( Linux)
+Scheduling Python Script at 11am using Crontab on Ec2 ( Linux)
 
 ![ ](images/cron.PNG)
 
@@ -36,3 +36,5 @@ Scheduling Python Script using Crontab on Ec2 ( Linux)
 ### Mysql (Workbench) and Covid Data
 
 ![ ](images/sql.PNG)
+
+### Learning in the Project
