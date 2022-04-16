@@ -38,3 +38,25 @@ Scheduling Python Script at 11am using Crontab on Ec2 ( Linux)
 ![ ](images/sql.PNG)
 
 ### Learning in the Project
+
+I was having a problem connecting jupiter (python) with Mysql credential.Since, I was locally trying to connect with Mysql. I need to grant the privileges and create a new password :
+
+CREATE USER 'Username'@'ip' IDENTIFIED WITH mysql_native_password BY 'new password';
+
+-- Grant user permissions to all tables in my_database from localhost 
+
+GRANT ALL ON Jas_Schema.* TO 'Username'@'ip'
+
+-- Grant user permissions to my_table in my_database from localhost 
+
+GRANT ALL ON Jas_Schema.dual_table TO 'Username'@'ip';
+
+-- Grant user permissions to all tables and databases from all hosts
+
+GRANT ALL PRIVILEGES ON Jas_Schema.* TO 'Username'@'ip' WITH GRANT OPTION;
+
+
+#Check the user privilegs
+select user, host from mysql.user;
+
+
