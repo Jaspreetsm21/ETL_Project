@@ -43,6 +43,10 @@ I was having a problem connecting jupiter (python) with Mysql credential.Since, 
 
 CREATE USER 'Username'@'ip' IDENTIFIED WITH mysql_native_password BY 'new password';
 
+or 
+
+alter user 'JasDB'@'ip' identified by 'password'
+
 -- Grant user permissions to all tables in my_database from localhost 
 
 GRANT ALL ON Jas_Schema.* TO 'Username'@'ip'
