@@ -2,7 +2,7 @@
 
 Aim: Setup an ETL Job to Extract daily covid data from API for Data Team, who are going to use data to create insight and dashboards. 
 
-Result: Automated (crontab) job has been setup on EC2 (Aws) to run a python script daily to extract, transform and load data on to SQL Table.
+Result: Automated (crontab) job has been setup on EC2 (Aws) to run a python script daily to extract, transform and load data on to SQL Table. The data Team now can access the data and setup key KPIs.
 
 # Code and Resources Used
 Python Version: 3.7
