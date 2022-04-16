@@ -39,7 +39,7 @@ Scheduling Python Script at 11am using Crontab on Ec2 ( Linux)
 
 ### Learning in the Project
 
-I was having a problem connecting jupiter (python) with Mysql credential.Since, I was locally trying to connect with Mysql. I need to grant the privileges and create a new password :
+I was having a problem connecting Jupiter (python) with Mysql credential.Since I was locally trying to connect with Mysql there was an issue with privileges and I needed to grant the privileges and create a new password against local IP.
 
 CREATE USER 'Username'@'ip' IDENTIFIED WITH mysql_native_password BY 'new password';
 
