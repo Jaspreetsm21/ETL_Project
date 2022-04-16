@@ -11,11 +11,14 @@ Packages: pandas,json,mysql,requests,pymsql,sqlalchemy and datetime.
 
 AWs: RDs (Mysql) and EC2 (ubuntu)
 
+API: covid19api.com 
+
+
 # Project Process
 
 ![ ](images/etl1.PNG)
 
-### Python Script
+### [Python Script](https://github.com/Jaspreetsm21/ETL_Project/blob/main/Daily_script.py)
 
 Inside the script, it follows the steps in the screenshot below:
 - Request Api and Transform
