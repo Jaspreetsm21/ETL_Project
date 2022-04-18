@@ -1,6 +1,6 @@
 # ETL Project: From Scratch to Data Warehouse 
 
-Aim: Setup an ETL Job to Extract daily covid data from API for Data Team, who are going to use data to create insight and dashboards. 
+Aim: Setup an ETL Job to Extract daily covid data from API for me to use data to create insight and dashboards. 
 
 Result: Automated (crontab) job has been setup on EC2 (Aws) to run a python script daily to extract, transform and load data on to SQL Table. The data Team can now access the data (updated daily data at 11am) and setup key KPIs around Covid data.
 
